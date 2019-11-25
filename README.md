@@ -1,15 +1,20 @@
-Simpons 角色辨識
+Simpons
 ===
 
 ## 目錄
 
 * [Simpons](#Simpons)
   * [目錄](#目錄)
-  * [說明](#說明)
 
 
-## 說明
-1. 將資料集切割成70%(訓練用)30%(驗證用)
+## Beginners Guide
+
+If you are a total beginner to this, start here!
+
+1. Visit hackmd.io
+2. Click "Sign in"
+3. Choose a way to sign in
+4. Start writing note!
 
 User story
 ---
@@ -48,12 +53,17 @@ Feature: Shopping Cart
 
 > Read more about Gherkin here: https://docs.cucumber.io/gherkin/reference/
 
-程式流程圖
+User flows
 ---
-split_train&valid.ipynb
+```sequence
+Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob-->Alice: I am good thanks!
+Note left of Alice: Alice responds
+Alice->Bob: Where have you been?
+```
 
-![image](https://github.com/t108368530/ML-Class_Simpons/blob/master/split_train%26valid.png)
-
+> Read more about sequence-diagrams here: http://bramp.github.io/js-sequence-diagrams/
 
 Project Timeline
 ---
