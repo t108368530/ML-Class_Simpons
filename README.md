@@ -9,8 +9,8 @@ Simpons 角色辨識
      * [資料切割](#資料切割)  
      * [訓練＆驗證＆預測](#訓練＆驗證＆預測)  
   * [結果分析](#結果分析)  
-     * [Train - 1](#Train---1)  
-     * [Train - 2](#Train---2)  
+     * [Train ＆ Vaild - 1](#Train-＆-Vaild---1)  
+     * [Train ＆ Vaild - 2](#Train-＆-Vaild---2)  
      * [混淆矩陣](#混淆矩陣)  
   * [網路流程圖](#網路流程圖)  
      * [ResNet50-V2](#ResNet50-V2)  
@@ -43,7 +43,7 @@ Simpons 角色辨識
 
 結果分析
 ---
-#### Train - 1  
+#### Train ＆ Vaild - 1  
 (epoch 20,size=(150,150))
 
 ![image](https://github.com/t108368530/ML-Class_Simpons/blob/master/png/tensorboard1.png)  
@@ -51,7 +51,7 @@ Simpons 角色辨識
 `由圖可見使用預先訓練模型在剛開始前幾輪就有不錯的準確率了`  
 
 
-#### Train - 2  
+#### Train ＆ Vaild - 2  
 (epoch 30,size=(224,224))  
 
 ![image](https://github.com/t108368530/ML-Class_Simpons/blob/master/png/tensorboard2.png)  
@@ -67,3 +67,5 @@ Simpons 角色辨識
 #### ResNet50-V2  
 
 ![image](https://github.com/t108368530/ML-Class_Simpons/blob/master/png/ResNet50-V2-simpons.png)  
+
+[`TOP`](#目錄)  
