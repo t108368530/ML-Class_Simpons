@@ -7,16 +7,16 @@ Simpons 角色辨識
   * [說明](#說明)  
   * [程式流程圖](#程式流程圖)  
      * [資料切割](#資料切割)  
-     * [訓練＆驗證＆預測](#訓練＆驗證＆預測)  
+     * [訓練＆驗證＆預測](#訓練-AND-驗證-AND-預測)  
   * [程式](#程式)  
     * [資料切割](#訓練資料切割)  
     * [創建模型](#創建模型)  
     * [圖片處理](#圖片處理)  
     * [訓練模型](#訓練模型)  
-    * [預測＆生成CSV](#預測＆生成CSV)  
+    * [預測＆生成CSV](#預測-AND-生成CSV)  
   * [結果分析](#結果分析)  
-     * [Train ＆ Vaild - 1](#Train-＆-Vaild---1)  
-     * [Train ＆ Vaild - 2](#Train-＆-Vaild---2)  
+     * [訓練與驗證 - 1](#訓練與驗證---1)  
+     * [訓練與驗證 - 2](#訓練與驗證---2)  
      * [混淆矩陣](#混淆矩陣)  
   * [網路流程圖](#網路流程圖)  
      * [ResNet50-V2](#ResNet50-V2)  
@@ -41,7 +41,7 @@ Simpons 角色辨識
 
 ![image](https://github.com/t108368530/ML-Class_Simpons/blob/master/png/split_train%26valid.png)  
 
-#### 訓練＆驗證＆預測  
+#### 訓練 AND 驗證 AND 預測  
 
 ![image](https://github.com/t108368530/ML-Class_Simpons/blob/master/png/train.png)  
 
@@ -147,7 +147,7 @@ model.fit_generator(
 ```
 
 
-#### 預測＆生成CSV  
+#### 預測 AND 生成CSV  
 ```python=
 def submission():
     predict = model.predict_generator(testGenerator)
@@ -170,7 +170,7 @@ submission()
 結果分析  
 ---
 
-#### Train ＆ Vaild - 1  
+#### 訓練與驗證 - 1  
 (epoch 20,size=(150,150))
 
 ![image](https://github.com/t108368530/ML-Class_Simpons/blob/master/png/tensorboard1.png)  
@@ -178,7 +178,7 @@ submission()
 `由圖可見使用預先訓練模型在剛開始前幾輪就有不錯的準確率了`  
 
 
-#### Train ＆ Vaild - 2  
+#### 訓練與驗證 - 2  
 (epoch 30,size=(224,224))  
 
 ![image](https://github.com/t108368530/ML-Class_Simpons/blob/master/png/tensorboard2.png)  
