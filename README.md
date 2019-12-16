@@ -187,6 +187,10 @@ submission()
 
 ![image](https://github.com/t108368530/ML-Class_Simpons/blob/master/png/CM.png)  
 
+#### 卷積第一層  
+
+![image](https://github.com/t108368530/ML-Class_Simpons/blob/master/png/conv1.png)
+
 
 網路流程圖  
 ---
